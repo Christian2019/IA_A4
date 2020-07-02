@@ -59,7 +59,7 @@ public class Game extends Canvas implements Runnable, KeyListener, MouseListener
 	public static void iniciar() {
 
 		image = new BufferedImage(WIDTH, HEIGHT, BufferedImage.TYPE_INT_RGB);
-		
+		RN.rn();
 		/*
 		 * for (int i=0;i<Agrupamento.geracoes.size();i++) {
 		 * System.out.println("Geracao: "+i); System.out.println("Centroids: ");
@@ -88,7 +88,7 @@ public class Game extends Canvas implements Runnable, KeyListener, MouseListener
 	}
 
 	public void initFrame() {
-		frame = new JFrame("IA_Agrupamento");
+		frame = new JFrame("IA_A4");
 		frame.add(this);
 		frame.setResizable(false);
 		frame.pack();

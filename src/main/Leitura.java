@@ -23,7 +23,7 @@ public static void load() {
 					while ((singleLine = reader.readLine()) != null) {
 						
 						if (cont_line > 1) {
-/*
+
 						String[] dados = singleLine.split(",");
 						double sepal_length = Double.parseDouble(dados[0]);
 						double sepal_width = Double.parseDouble(dados[1]);
@@ -31,8 +31,8 @@ public static void load() {
 							 double petal_width=Double.parseDouble(dados[3]);
 							 String petal_class=dados[4];
 							 Petala petala = new Petala(sepal_length,sepal_width,petal_length,petal_width,petal_class);
-							Game.petalas.add(petala);
-	*/						
+							RN.petalas.add(petala);
+						
 						}
 						
 						cont_line++;
